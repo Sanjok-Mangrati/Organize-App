@@ -1,0 +1,65 @@
+.organize__toolbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.organize__toolbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    background: var(--color-yellow);
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+}
+
+.organize__toolbar-input {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.organize__toolbar-input input {
+    padding: 5px 10px;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    outline: none;
+}
+
+.organize__toolbar-input input::placeholder {
+    font-family: var(--font-family);
+    font-size: 12px;
+}
+
+.organize__toolbar-add {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.organize__toolbar-add button {
+    padding: 5px 15px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    background: var(--color-green);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    transition: background, padding, 0.25s;
+    cursor: pointer;
+    
+}
+
+.organize__toolbar-add button:hover {
+    background: greenyellow;
+}
+
+.organize__toolbar-add button:active {
+    padding: 5px 10px;
+}

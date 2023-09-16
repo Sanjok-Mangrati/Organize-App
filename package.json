@@ -1,0 +1,14 @@
+{
+  "name": "organize-app",
+  "version": "1.0.0",
+  "description": "A app to keep track of your behaviours and behaviour specific todos",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "author": "Sanjok Mangrati",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}

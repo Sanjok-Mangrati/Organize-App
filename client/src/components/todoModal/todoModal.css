@@ -1,0 +1,95 @@
+.organize__todoModal{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.organize__todoModal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    position: relative;
+    background: var(--color-pink);
+    border-radius: 5px;
+}
+
+.organize__todoModal-title {
+    position: absolute;
+    top: 100px;
+    margin: auto;
+    padding: 15px 20px;
+    font-size: 32px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    background: var(--color-yellow);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.organize__todoModal-closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.organize__todoModal-input_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 80%;
+    background: var(--color-yellow);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.organize__todoModal-input{
+    width: 60%;
+}
+
+.organize__todoModal-input input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    outline: none;
+}
+
+.organize__todoModal-input input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+
+.organize__todoModal-changebtn {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.organize__todoModal-changebtn button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: var(--color-green);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-family: var(--font-family);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, 0.25s;
+}
+
+.organize__todoModal-changebtn button:hover {
+    background: greenyellow;
+}

@@ -1,0 +1,64 @@
+.organize__todoToolbar-container {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.organize__todoToolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: var(--color-yellow);
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.25);;
+}
+
+.organize__todoToolbar-input {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.organize__todoToolbar-input input {
+    padding: 5px 15px;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    outline: none;
+    margin-left: 20px;
+}
+
+.organize__todoToolbar-input input::placeholder {
+    font-family: var(--font-family);
+    font-size: 12px;
+}
+
+.organize__todoToolbar-addbtn {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.organize__todoToolbar-addbtn button {
+    padding: 8px 15px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    background: var(--color-green);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    transition: background, padding, 0.25s;
+    cursor: pointer;
+}
+
+.organize__todoToolbar-addbtn button:hover {
+    background: greenyellow;
+}
+
+.organize__todoToolbar-addbtn button:active {
+    padding: 8px 10px;
+}

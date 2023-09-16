@@ -1,0 +1,55 @@
+.organize__behaviour-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+    width: 222px;
+    vertical-align: middle;
+    margin: auto;
+    position: relative;
+    border-radius: 8px;
+    background: var(--color-yellow);
+    font-family: var(--font-family);
+}
+
+.organize__behaviour-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 66px;
+    background: var(--color-pink);
+    font-size: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 80px;
+}
+
+.organize__behaviour-card_buttons-left {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.organize__behaviour-card_buttons-left_open {
+    cursor: pointer;
+}
+
+.organize__behaviour-card_buttons-right {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.organize__behaviour-card_buttons-right_edit{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.organize__behaviour-card_buttons-right_delete {
+    cursor: pointer;
+}
