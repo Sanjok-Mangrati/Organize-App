@@ -75,7 +75,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-##Thank you for using Organize-App! We hope it helps you stay organized and productive.
+## Thank you for using Organize-App! We hope it helps you stay organized and productive.
 
 
 
