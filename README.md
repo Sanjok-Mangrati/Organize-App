@@ -51,6 +51,10 @@ Before you begin, ensure you have met the following requirements:
    cd ../server
    npm start
 
+**Note**
+- You need to create the required .env file and setup the variables
+- Create your own postgres database with the required tables and constraints
+
 **Usage**
 
 - Access the Organize-App frontend by opening your web browser and navigating to `http://localhost:3000`.
